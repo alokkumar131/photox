@@ -14,20 +14,6 @@ $(document).ready(function(){
         }
     })
 
-    $(window).scroll(function(){
-        let position = $(this).scrollTop();
-        console.log(position);
-        $('.camara-img').css('opacity','0');
-        if(position >= 700){
-            $('.camara-img').addClass('fromLeft');
-
-            $('.mission-text').addClass('fromRight');
-        }else{
-            $('.camara-img').removeClass('fromLeft');
-            $('.camara-img').css('opacity','1');
-            $('.mission-text').removeClass('fromRight');
-        }
-    })
 
     AOS.init();
 

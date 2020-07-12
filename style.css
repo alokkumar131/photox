@@ -17,7 +17,8 @@ header{
 /* navbar */
 .nav-menu{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   transition: all 0.7s;
 }
 .menu-item{
@@ -52,7 +53,8 @@ header{
   outline: none !important;
 }
 .custom-navbar{
-  padding: 5px 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: black;
 }
 /* end of navbar */
@@ -100,7 +102,9 @@ header{
   margin: auto;
   border: 3px solid #eee;
 }
-
+.camara-img{
+  opacity: 0;
+}
 
 .fromLeft{
   animation-name: fromLeft;
